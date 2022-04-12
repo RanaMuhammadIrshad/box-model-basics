@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box; /* helpful in navigation */
+  margin: 0;
+  padding: 0;
+  /* Look into "reset.css" */
+}
+
+/* 100vh --> height total!! */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+header {
+  height: 10vh;
+  border: 1px solid red;
+}
+
+header nav.main-nav {
+  margin: 0 auto;
+  width: 50%;
+}
+
+nav li {
+  display: inline-block; /* help in navigation tags */
+  font-size: 20px;
+  padding: 20px;
+}
+main {
+  height: 70vh;
+  border: 1px solid yellow;
+}
+nav.secondary-nav li {
+  display: block;
+}
+
+aside {
+  float: left;
+  border: 1px solid red;
+  height: 70vh;
+}
+
+footer {
+  height: 20vh;
+  border: 1px solid green;
+}
+
+a {
+  text-decoration: none;
+}
